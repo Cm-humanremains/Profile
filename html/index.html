@@ -1,0 +1,140 @@
+<!DOCTYPE >
+<html>
+    <head>
+    <!--- scripts,links and meta --->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/80d26f00f5.js" crossorigin="anonymous"></script>
+        <link href="../css/index.css" rel="stylesheet" type="text/css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Chris's webpage </title>
+    </head> 
+    
+      <h1> <a href="#home" value="click me" onclick="this.style.color='#ffffff';
+        this.style.backgroundColor = '#ffffff00'" /> Chris's Profile </a></h1>
+<body>
+    <section class="panel" id="home">
+            <div class = "socialMedia" id= "navbar"></div>
+              <ul class= "sci">
+                  <li data-text="About &#128102;"><a href="#aboutme"class="About"><i class="fas fa-user-ninja"></i></a</li>
+                  <li data-text="Experience &#128171;"><a href="#experience"class="Experiences"><i class="fas fa-toolbox"></i></a</li>
+                  <li data-text="Projects &#128296;"><a href="#projects"class="Projects"><i class="fas fa-folder-open"></i></a></li>
+                  <li data-text="Contact &#128225;"><a href="#contact"class="Contact"><i class="fas fa-address-book"></i></a></li>
+                  <li data-text="Gratitude &#128591;"><a href="#gratitude"class="Gratitude"><i class="fas fa-hands-helping"></i></a></li>
+                  <li data-text="Space &#x1F680; Mode"><a onclick="dark()"><i class ="fas fa-lightbulb"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+      <!------------------------------ABOUT SECTION---------------------------->
+          <div id="aboutme" class="panel">
+            <div class="content">
+              <div class=".container-sm p-3 my-3 ">
+                 <header><h3>About Me</h3></header><br>
+                <p>  My name is Chris. 
+                    The best time of my life has been right now. Being out of work and taking care of my two kids has only furthered my desire to become a better more experienced human being.
+                    My interest in coding really took off when I created a family vacation app using Appsheets in 2018. 
+                    It used API's to grab local weather information and it used google maps data to do in app searches for things like local breakfast spots and cafes etc. 
+                    The low code experience was great, but I really wanted to challenge myself to build something from ground up. So, I started looking into coding and got hooked.
+               
+                <p>  Now, I am a current student of Code The Dream and on my way to becoming a junior software developer. 
+                    I am excited to use these new skills in a way that will inspire others around me. 
+                    My life motto is : “If  I can learn to do it, then so can you”. </p>
+              </div>
+            </div>
+            <a href="#home"><i class="fas fa-home"></i></a>
+          </div>
+
+        <div id="experience" class="panel">
+          <div class="content">
+            <div class=".container-sm p-3 li-3 ">
+            <h3>Experience</h3>
+            <header> <h4> Work History</h4> </header><br>
+                <div id="works" class="work">
+                  <div class="container p-3 my-3 ul-3">
+                <ul>
+                </ul>
+                  </div>
+                </div>
+
+                <header> <h4> Web Skills</h4> </header><br>
+                <div id="skills" class="skill">
+                  <div class="container p-3 my-3 ul-3">
+                <ul>
+                </ul>
+                  </div>
+                </div>
+
+                <header> <h4> People Skills</h4> </header><br>
+                <div id="skillz" class="skill">
+                  <div class="container p-3 my-3 ul-3">
+                <ul>
+                </ul>
+                  </div>
+                </div>
+                <a href="#home"><i class="fas fa-home"></i></a>
+            </div>
+          </div> 
+        </div>
+        
+
+             <div id="projects" class="panel">
+                <div class="content">
+                  <div class=".container-sm p-3 my-3 "></div>
+                    <h3>Projects</h3>
+                     <ul>
+                    </ul>
+                </div>
+                <a href="#home"><i class="fas fa-home"></i></a>
+            </div>
+
+        <div id="contact" class="panel">
+          <div class="content">
+            <div class=".container-sm p-3 my-3 "></div>
+            <header> <h3><u>Contact Me</u></h3>         
+                <form name ='leave_message'>
+                  <label for="name">Name </label> <br>
+                  <input type="text" name="name" id='name' required= 'true'></input> <br>
+                  <label for="email">Email Address</label> <br>
+                  <input type="email" name="email" id= 'email' required= 'true'></input><br>
+                  <label for="comment">Your Message</label> <br>
+                  <textarea type= "message" name="message" id='message' required= 'true'></textarea></input>
+                  <button type="submit">Submit</button>
+                </form>
+                <div id= "messages">
+                    <ul>
+                    </ul> 
+                </div> 
+          </div>
+          <a href="#home"><i class="fas fa-home"></i></a>
+        </div>
+
+        <div id="gratitude" class="panel">
+            <div class="content">
+              <div class=".container-sm p-3 my-3 "></div>
+              <h3>Thank You</h3>
+              <p>Some really nice portfolio shots:</p>
+            
+            </div>
+            <a href="#home"><i class="fas fa-home"></i></a>
+          </div>
+          
+            <footer>
+                <div>
+            <li><a href="https://github.com/Cm-humanremains" class="github"><i class="fab fa-github"></i></a</li>
+                        &nbsp;
+            <li><a href="https://linkedin.com/in/christopher-m-a35070138" class="linkedin"><i class="fab fa-linkedin-in"></i></a</li>
+                        &nbsp;
+            <li><a href="https://facebook.com" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                </div>
+            </footer>
+          
+          <script src="../js/index.js"></script>
+  </body>
+</html>
