@@ -5,7 +5,7 @@ const thisyear = today.getFullYear();
 const copyright = document.createElement("p");
 copyright.innerHTML = `Chris McCourt &copy; ${thisyear}`;
 const footer = document.querySelector("footer");
-footer.appendChild(copyright)
+    footer.appendChild(copyright)
 //console.log("copyright");
 
 
