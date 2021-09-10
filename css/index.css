@@ -355,6 +355,19 @@ button#btn{
   color:rgb(255, 255, 255);
   margin-top: 1em;
 }
+
+button {
+  text-shadow:1px,1px, 1px rgb(255, 255, 255);
+  background-color: rgb(0, 140, 255);
+  color:rgb(255, 255, 255);
+  margin-top: 1em;
+  
+}
+
+#messages li {
+  text-decoration: none;
+  list-style-type: none;
+}
 /*---------------Footer------------------*/
 
 footer {
